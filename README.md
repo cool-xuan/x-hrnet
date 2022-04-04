@@ -194,10 +194,11 @@ Thanks to:
 ## Citation
 
 If you use our code or models in your research, please cite with:
-
+```
 @inproceedings{xuan2022xhrnet,
   title={X-HRNet: Towards Lightweight Human Pose Estimation with Spatially Unidimensional Self-Attention},
   author={Zhou, Yixuan and Wang, Xuanhan and Xu, Xing and Zhao, Lei and Song, Jingkuan},
   booktitle={ICME},
   year={2022}
 }
+```
