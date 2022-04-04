@@ -29,7 +29,7 @@ a. Install mmcv, we recommend you to install the pre-build mmcv as below.
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
 ```
 
-Please replace ``{cu_version}`` and ``{torch_version}`` in the url to your desired one. For example, to install the latest ``mmcv-full`` with ``CUDA 11`` and ``PyTorch 1.7.0``, use the following command:
+Please replace ``{cu_version}`` and ``{torch_version}`` in the url to your desired one. For example, to install the latest ``mmcv-full`` with ``CUDA 11`` and ``PyTorch 1.8.0``, use the following command:
 
 ```shell
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu111/torch1.8.0/index.html
@@ -190,3 +190,14 @@ Thanks to:
 - [MMPose](https://github.com/open-mmlab/mmpose)
 - [HRNet](https://github.com/HRNet/deep-high-resolution-net.pytorch)
 - [Lite-HRNet](https://github.com/HRNet/Lite-HRNet)
+
+## Citation
+
+If you use our code or models in your research, please cite with:
+
+@inproceedings{xuan2022xhrnet,
+  title={X-HRNet: Towards Lightweight Human Pose Estimation with Spatially Unidimensional Self-Attention},
+  author={Zhou, Yixuan and Wang, Xuanhan and Xu, Xing and Zhao, Lei and Song, Jingkuan},
+  booktitle={ICME},
+  year={2022}
+}
